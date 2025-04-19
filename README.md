@@ -1,2 +1,1 @@
-# Algoritmos
- Curso de Algoritmos 2025-1
+# Algoritmos 2025-1
