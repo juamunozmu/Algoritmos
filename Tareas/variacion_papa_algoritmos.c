@@ -1,22 +1,20 @@
 #include <stdio.h>
 
-/* P.A.P.A = promedio */
-/* 4.5*7 + 3*4 ... /(# créditos totales)*/
-/* Final - Inicial = Variación*/
-int nomb = 2;
-
 int main(void){
-    float papa = 4;
-    printf("%f\n",papa);
-    int creditos=120;
-    /*scanf("%i", &creditos);*/
-    
+    float papa;
+    int creditos_totales;
     int creditos_algoritmos = 3;
-    float bandera = 0.0;
-    while(bandera <= 5){
+    float nota_definitiva_algoritmos = 0;
 
-        printf("%4.1f\t->\t %4.3f\n",bandera, (papa*creditos+bandera*creditos_algoritmos)/(creditos+creditos_algoritmos)-papa);
-        bandera += 0.5;
+    printf("Ingresa tu P.P.P.A: ");
+    scanf("%f", &papa);
+    printf("\nIngresa el número de créditos cursados hasta el momento: ");
+    scanf("%i", &creditos_totales);
+
+    while(nota_definitiva_algoritmos <= 5){
+
+        printf("%4.1f\t->\t %4.3f\n",nota_definitiva_algoritmos, (papa*creditos_totales+nota_definitiva_algoritmos*creditos_algoritmos)/(creditos_totales+creditos_algoritmos)-papa);
+        nota_definitiva_algoritmos += 0.5;
 
     }
     
