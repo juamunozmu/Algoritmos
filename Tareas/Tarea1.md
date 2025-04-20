@@ -8,3 +8,5 @@ Salida ejemplo
 Solución: [variacion_papa_algoritmos.c](/Tareas/variacion_papa_algoritmos.c) 
 
 Calcule el número de estudiantes que deben ser seleccionados al azar por clase. Para que con un 85% de probabilidad todos los estudiantes hayan sido llamados al menos una vez. Para una clase con 32 sesiones y 50 estudiantes.
+
+
