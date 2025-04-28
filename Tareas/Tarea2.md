@@ -2,27 +2,16 @@ Complete la siguiente tabla. Esta tabla es un resumen de cuando usar cada estruc
 
 
 
-| **Estructura**                                   | **¿Para qué sirve? (Definición)**                                                               | **¿Cuándo se debe usar?**                                                                                   | **Operaciones comunes**                             |
-| ------------------------------------------------ | ----------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| Arreglo estático (int [],double []..)            | Almacenar elementos del mismo tipo en posiciones contiguas de memoria.                          | Cuando se sabe que el tamaño no cambiará.                                                                   | Acceso por índice (a[i]), asignación, iteración.    |
-| Arreglo dinámico (vector)                        | ES similar al arreglo estático, pero se puede modificar el tamaño.                              | Cuando el tamaño del arreglo puede cambiar.                                                                 | Prácticamente los mismo del estático                |
-| Queue                                            | Estructura FIFO (First In, First Out).                                                          | Cuando se requiere cierto orden en el procesamiento                                                         | push, pop, peek.                                    |
-| Stack                                            | Estructura LIFO (Last In, First Out).                                                           | Cuando se necesita controlar el flujo, como deshacer cambios.                                               | enqueu, dequeu.                                     |
-| Deque                                            | Permite ingresar y eliminar por ambos extremos.                                                 | Cuando se necesita insertar o eliminar desde el principio y el final eficientemente.                        | pop_back, push_back, pop_front, push_front          |
-| Diccionario como HashTable (HashMap)             | Almacena pares clave-valor usando funciones hash para acceso rápido.                            | Cuando se puede acceder mediante una llave pero no se necesita orden alguno.                                | add, remove, get                                    |
-| Diccionario como árbol (map)                     | Similar al anterior, pero ordena las claves automáticamente                                     | como el anterior pero si requiere orden.                                                                    | similar al de anterior                              |
-| Set como HashTable (HashSet)                     | Almacena valores únicos, sin orden.                                                             | Cuando se necesita elementos únicos sin preocuparse por el orden.                                           | add, remove, search                                 |
-| Set como árbol (set)                             | Igual que el anterior, pero los elementos están ordenados.                                      | Similar al anterior pero con orden.                                                                         | similar al anterior                                 |
-| Cola de prioridad o heap (priority_queue)        | Permite obtener el elemento de menor o mayor prioridad, dependiendo si es minHeap o maxHeap     | Cuando se necesita siempre acceder rápidamente al valor más alto o más bajo.                                | get_max, move_up, move_down, insert                 |
-
-
-
-
-
-
-
-
-
-
-
+| **Estructura**                            | **¿Para qué sirve? (Definición)**                                                           | **¿Cuándo se debe usar?**                                                            | **Operaciones comunes**                          |     |
+| ----------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------ | --- |
+| Arreglo estático (int [],double []..)     | Almacenar elementos del mismo tipo en posiciones contiguas de memoria.                      | Cuando se sabe que el tamaño no cambiará.                                            | Acceso por índice (a[i]), asignación, iteración. |     |
+| Arreglo dinámico (vector)                 | ES similar al arreglo estático, pero se puede modificar el tamaño.                          | Cuando el tamaño del arreglo puede cambiar.                                          | Prácticamente los mismo del estático             |     |
+| Queue                                     | Estructura FIFO (First In, First Out).                                                      | Cuando se requiere cierto orden en el procesamiento                                  | enqueu, dequeu.                                  |     |
+| Stack                                     | Estructura LIFO (Last In, First Out).                                                       | Cuando se necesita controlar el flujo, como deshacer cambios.                        | push, pop, peek.                                 |     |
+| Deque                                     | Permite ingresar y eliminar por ambos extremos.                                             | Cuando se necesita insertar o eliminar desde el principio y el final eficientemente. | pop_back, push_back, pop_front, push_front       |     |
+| Diccionario como HashTable (HashMap)      | Almacena pares clave-valor usando funciones hash para acceso rápido.                        | Cuando se puede acceder mediante una llave pero no se necesita orden alguno.         | add, remove, get                                 |     |
+| Diccionario como árbol (map)              | Similar al anterior, pero ordena las claves automáticamente                                 | como el anterior pero si requiere orden.                                             | similar al de anterior                           |     |
+| Set como HashTable (HashSet)              | Almacena valores únicos, sin orden.                                                         | Cuando se necesita elementos únicos sin preocuparse por el orden.                    | add, remove, search                              |     |
+| Set como árbol (set)                      | Igual que el anterior, pero los elementos están ordenados.                                  | Similar al anterior pero con orden.                                                  | similar al anterior                              |     |
+| Cola de prioridad o heap (priority_queue) | Permite obtener el elemento de menor o mayor prioridad, dependiendo si es minHeap o maxHeap | Cuando se necesita siempre acceder rápidamente al valor más alto o más bajo.         | get_max, move_up, move_down, insert              |     |
 

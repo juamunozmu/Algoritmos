@@ -13,7 +13,7 @@ int main(void){
 
     while(nota_definitiva_algoritmos <= 5){
 
-        printf("%4.1f\t->\t %4.3f\n",nota_definitiva_algoritmos, (papa*creditos_totales+nota_definitiva_algoritmos*creditos_algoritmos)/(creditos_totales+creditos_algoritmos)-papa);
+        printf("%4.1f\t->\t %4.2f\n",nota_definitiva_algoritmos, (papa*creditos_totales+nota_definitiva_algoritmos*creditos_algoritmos)/(creditos_totales+creditos_algoritmos)-papa);
         nota_definitiva_algoritmos += 0.5;
 
     }
